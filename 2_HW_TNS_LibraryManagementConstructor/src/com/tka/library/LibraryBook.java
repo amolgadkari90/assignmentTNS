@@ -49,7 +49,7 @@ public class LibraryBook {
 	
 	static void infospaprator(char c)
 	{
-		for (int i = 0; i < 73; i++)
+		for (int i = 0; i < 75; i++)
 			System.out.print(c);
 			System.out.println();
 	}
@@ -60,7 +60,7 @@ public class LibraryBook {
 		LibraryBook book2 = new LibraryBook("To Kill a Mockingbird", "Harper Lee", "978-0-06-112008-4");
 		
 		//Initial inventory
-		System.out.println("\033[1mInitial inventory");
+		System.out.println("\033[1m Initial inventory");
 		System.out.println("\tTitle\t\t|"+"Author\t\t|"+"\t"+"isbn\t\t|"+"Status\t|\033[0m");
 		LibraryBook.infospaprator('-');
 		System.out.println(book1.title+"\t|"+book1.author+"\t|"+book1.isbn+"\t|"+book1.available+"\t|");
